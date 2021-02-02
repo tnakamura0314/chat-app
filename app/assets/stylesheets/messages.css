@@ -1,0 +1,44 @@
+.wrapper{
+  display:flex;
+}
+
+.side-bar{
+  background-color: #253141;
+  width:300px;
+  height:100vh;
+}
+
+.ber-head{
+  background-color: #253141;
+  height:100px;
+  padding:0 20px;
+}
+
+.ber-body{
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding:0 20px;
+}
+
+.main-chat{
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+}
+
+.chat-head{
+  height:100px;
+  background-color: #ffffff;
+  padding:0 40px;
+}
+
+.chat-middle{
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+}
+
+.chat-bottom{
+  background-color: #DDDDDD;
+  height:90px;
+  padding:20px 40px;
+}
