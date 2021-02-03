@@ -1,7 +1,6 @@
 <div class= "ber-head">
   <div class="bar-user-name">
-    <a href="#">Tom
-    </a>
+     <%= link_to current_user.name, edit_user_path(current_user) %>
   </div>
   <div class="create-room">
     <a href="#">チャットを作成する
